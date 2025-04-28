@@ -14,8 +14,7 @@ s->top=-1;
 return s;
 }
 int isFull(struct stack* s){
-    if (s->top==s->capacity-1)
-    {
+    if(s->top==s->capacity-1){
         return 1;
     }
     else{

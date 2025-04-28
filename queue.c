@@ -34,7 +34,7 @@ void enqueue(struct Queue *q,int data){
         return;
     }
     else{
-        if (isEmpty==1)
+        if (isEmpty(q)==1)
         {
             q->front=0;
         }
